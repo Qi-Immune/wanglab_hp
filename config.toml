@@ -1,0 +1,81 @@
+# Site settings
+baseurl = "/"
+relativeurls = true
+languageCode = "en-US"
+title = "Homepage for Wang's Lab"
+theme = "hugo-split-theme"
+disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+# Copyright
+copyright = "&copy;2020 Wang Lab"
+
+[params]
+
+  # Metadata for search engines and social sharing
+  author = "Qi Zhu"
+  description = "An immune-focused lab in ShanghaiTech University."
+  shareImage = "images/social.jpg"
+  twitterHandle = "onepagelove"
+
+  # Favicon
+  favicon = "favicon.ico"
+
+  # Section - Visual
+  [params.visual]
+
+    # Image
+    [params.visual.image]
+      enable = true
+      file = "images/background.jpg"
+      position = "center center"
+
+    # Video
+    [params.visual.video]
+      enable = false
+      mute = true
+      file = "videos/background.mp4"
+      # youtubeId = "dk9uNWPP7EA"
+
+  # Links
+  #
+
+
+  # Links List #1
+  [[params.links]]
+    [params.links.list1]
+      heading = "Social"
+
+      [[params.links.list1.link]]
+        text = "Research Gate"
+        url = "https://www.researchgate.net/profile/Haopeng_Wang10"
+
+      [[params.links.list1.link]]
+        text = "Google Scholar"
+        url = "https://scholar.google.com/citations?user=FpppG-IAAAAJ&hl=en"
+
+
+  # Links List #2
+  [[params.links]]
+    [params.links.list2]
+      heading = "Official Website"
+
+      [[params.links.list2.link]]
+        text = "Homepage"
+        url = "https://slst.shanghaitech.edu.cn/whp/main.htm"
+
+  # Links List #3
+  [[params.links]]
+    [params.links.list3]
+      heading = "Contact"
+
+      [[params.links.list3.link]]
+        text = "email"
+        url = "mailto:wanghp@shanghaitech.edu.cn"
+
+  # The original template is released under the Creative Commons Attribution 3.0 License.
+  # Please keep the original attribution link when using for your own project.
+  # If you'd like to use the template without the attribution, you can check out
+  # the license option via the template author's website: https://onepagelove.com/split
